@@ -1,0 +1,25 @@
+# Gradle files
+.gradle/
+build/
+/*/build/
+
+# IDE files
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+.gradle/config.properties
+
+# Backend data and uploads
+Application 1/uploads/
+Application 1/backend/data/
+Application 2/uploads/
+Application 2/backend/data/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Zip files
+*.zip

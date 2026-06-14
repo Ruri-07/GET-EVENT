@@ -1,0 +1,12 @@
+-- GET Ticket (Application 2) utilise la base partagée GET Events.
+-- Ne pas exécuter ce fichier pour une nouvelle installation.
+--
+-- Base cible : getevents_db (MySQL)
+-- Initialisation : lancer le backend GET Events (Application 1) une première fois.
+--
+-- GET Ticket crée uniquement la table scan_history dans getevents_db.
+-- Tables utilisées depuis GET Events :
+--   users, events, orders
+--
+-- Compte admin par défaut (GET Events) : admin@get.mg / admin123
+-- Backend GET Ticket : port 8081 (GET Events : port 8080)
